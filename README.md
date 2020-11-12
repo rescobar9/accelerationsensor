@@ -1,14 +1,9 @@
 
 > Open this page at [https://rescobar9.github.io/accelerationsensor/](https://rescobar9.github.io/accelerationsensor/)
 
-## Use as Extension
+## Tutorial
 
-This repository can be added as an **extension** in MakeCode.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/rescobar9/accelerationsensor** and import
 
 ## Edit this project ![Build status badge](https://github.com/rescobar9/accelerationsensor/workflows/MakeCode/badge.svg)
 
