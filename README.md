@@ -3,7 +3,7 @@
 
 ## Tutorial
 
-
+* [Acceleration Sensor Tutorial](https://makecode.microbit.org/#tutorial:github:rescobar9/accelerationsensor/Accelerationsensor)
 
 ## Edit this project ![Build status badge](https://github.com/rescobar9/accelerationsensor/workflows/MakeCode/badge.svg)
 
