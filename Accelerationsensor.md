@@ -1,4 +1,4 @@
-# accelerationsensor
+# Accelerationsensor
 
 ## Step 1
 In "Variables", create "Absolute Acceleration"
