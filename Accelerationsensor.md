@@ -1,10 +1,10 @@
 # Accelerationsensor
 
 ## Step 1
-In "Variables", create "Absolute Acceleration"
+In ``||Variables:Variables||``, create a variable and call it: ``||Variables:Absolute Acceleration||``
  
 ## Step 2
-In "Variables", drag the "set Absolute_Acceleration to 0" block inside the "Forever" block
+In ``||Variables:Variables||``, drag the ``||Variables:set Absolute_Acceleration to 0||`` block inside the ``||Basic:Forever||`` block
 ```blocks
 basic.forever(function(){
 Absolute_Acceleration = 0
@@ -12,7 +12,7 @@ Absolute_Acceleration = 0
 ```
  
 ## Step 3
-In "Led", drag the "plot bar graph of 0 up to 0" block under the previous red block
+In ``||Led:Led||``, drag the ``||Led:plot bar graph of 0 up to 0||`` block under the ``||Variables:set Absolute_Acceleration to 0||`` block
 ```blocks
 basic.forever(function(){
 Absolute_Acceleration = 0
@@ -21,7 +21,7 @@ led.plotBarGraph(0,0)
 ```
  
 ## Step 4
-In "Input", drag the "acceleration (mg) x" block and replace the "0" inside the "set Absolute_Acceleration to 0"
+In ``||Input:Input||``, drag the ``||Input:acceleration (mg) x||`` block and replace the "0" inside the ``||Variables:set Absolute_Acceleration to 0||``
 ```blocks
 basic.forever(function(){
 Absolute_Acceleration = input.acceleration(Dimension.x)
@@ -30,7 +30,7 @@ led.plotBarGraph(0,0)
 ```
  
 ## Step 5
-Click on the down arrow of the "acceleration (mg) x" and change the "x" to "strength"
+Click on the down arrow of the ``||Input:acceleration (mg) x||`` and change the "x" to ``||Input:acceleration (mg) strength||``
 ```blocks
 basic.forever(function(){
 Absolute_Acceleration = input.acceleration(Dimension.Strength)
@@ -39,7 +39,7 @@ led.plotBarGraph(0,0)
 ```
 
 ## Step 6
-In "Variables", drag the "Absolute_Acceleration" red block and replace the first 0 inside the "plot bar graph of Absolute_Acceleration up to 0" block.
+In ``||Variables:Variables||``, drag the ``||Variables:Absolute Acceleration||`` block and replace the first 0 inside the ``||Led:plot bar graph of 0 up to 0||`` block.
 ```blocks
 basic.forever(function(){
 Absolute_Acceleration = input.acceleration(Dimension.Strength)
@@ -49,7 +49,7 @@ serial.writeNumber(0)
 ```
 
 ## Step 7
-On the left menu. click down "Advanced" arrow. Then, in "Serial", drag the "serial write number 0" block under the previous "plot bar graph of Absolute_Acceleration up to 0" block
+On the left menu. click down ``||Advanced:Advanced||`` arrow. Then, in ``||Serial:Serial||`` "Serial", drag the ``||Serial:serial write number 0||`` block under the previous ``||Led:plot bar graph of 0 up to 0||`` block
 ```blocks
 basic.forever(function(){
 Absolute_Acceleration = input.acceleration(Dimension.Strength)
@@ -59,7 +59,7 @@ serial.writeNumber(0)
 ```
  
 ## Step 8
-In "Variables", drag the "Absolute_Acceleration" red block and replace the 0 inside the "serial write number 0" block.
+In ``||Variables:Variables||``, drag the ``||Variables:Absolute Acceleration||`` red block and replace the 0 inside the ``||Serial:serial write number 0||`` block.
 ```blocks
 basic.forever(function(){
 Absolute_Acceleration = input.acceleration(Dimension.Strength)
@@ -69,7 +69,7 @@ serial.writeNumber(Absolute_Acceleration)
 ```
  
 ## Step 9
-Connect the Micro:bit to the USB port on your computer. Then click on "Download" (Make sure that you download the file to the Micro:bit drive")
+Connect the Micro:bit to the USB port on your computer. Then click on ``||LED:Download||`` (Make sure that you download the file to the Micro:bit drive")
 ```blocks
 basic.forever(function(){
 Absolute_Acceleration = input.acceleration(Dimension.Strength)
