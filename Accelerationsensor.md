@@ -29,7 +29,7 @@ led.plotBarGraph(0,0)
 })
 ```
  
- ## Step 5
+## Step 5
 Click on the down arrow of the "acceleration (mg) x" and change the "x" to "strength"
 ```blocks
 basic.forever(function(){
