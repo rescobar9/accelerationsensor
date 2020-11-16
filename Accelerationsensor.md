@@ -1,6 +1,9 @@
 # Accelerationsensor
 
 ## Step 1
+
+Drag the ``||Basic:on start||`` block to the trash on the left main menu.
+
 In ``||Variables:Variables||``, create a variable and call it: ``||Variables:Absolute Acceleration||``
  
 ## Step 2
