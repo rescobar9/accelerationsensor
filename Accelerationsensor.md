@@ -47,7 +47,6 @@ In ``||Variables:Variables||``, drag the ``||Variables:Absolute Acceleration||``
 basic.forever(function(){
 Absolute_Acceleration = input.acceleration(Dimension.Strength)
 led.plotBarGraph(Absolute_Acceleration,0)
-serial.writeNumber(0)
 })
 ```
 
